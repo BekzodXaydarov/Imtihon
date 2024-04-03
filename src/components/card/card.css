@@ -1,0 +1,19 @@
+.card_wrap .card {
+    width: 230px;
+    height: 350px;
+}
+
+.card img {
+    width: 230px;
+    height: 184px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.card p {
+    color: #555555;
+    margin-top: 15px;
+}
