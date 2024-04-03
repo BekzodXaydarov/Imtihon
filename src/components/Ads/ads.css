@@ -1,0 +1,11 @@
+.ads {
+    width: 800px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #878787;
+}

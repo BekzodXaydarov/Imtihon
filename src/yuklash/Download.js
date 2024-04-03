@@ -3,6 +3,7 @@ import { IoMdArrowRoundDown } from "react-icons/io";
 import { FaBars } from 'react-icons/fa'
 import image from "../assets/images/rubber-duck 1.png"
 import "./Download.css"
+import Ads from '../components/Ads/ads';
 
 function Download() {
     return (
@@ -29,9 +30,7 @@ function Download() {
                     </button>
                 </div>
                 <a href='#'>How to download?</a>
-                <div className="ads">
-                    ads
-                </div>
+                <Ads />
             </div>
         </>
     )

@@ -5,6 +5,12 @@ import Img2 from './assets/images/image 2.png'
 import './App.css'
 import Section_card from './components/section_card/section'
 import Download from './yuklash/Download'
+import boy from './assets/images/Rectangle 8.png'
+import play from './assets/images/play-button-svgrepo-com 1.png'
+import Div from './components/Div'
+import VideoComponent from './components/video'
+import Video from './assets/videos/video1.mp4'
+import Footer from './ads/ADS'
 
 export default function App() {
   return (
@@ -23,6 +29,13 @@ export default function App() {
         <hr />
         <Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} Change={true} />
         <Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} Change={false} />
+        <div className="vedio_div">
+          <Div title={'Video instruction'} />
+          <VideoComponent src={Video} className="boy" />
+          <img className='play' src={play} alt="" />
+          <Div title={'Questions & Answers'} />
+        </div>
       </section>
+      <Footer />
     </div>)
 }

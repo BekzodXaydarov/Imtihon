@@ -42,12 +42,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.download a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 22px;
-    opacity: 0.5;
-    margin-top: 15px;
-}
+
 
 
 .download .input {
@@ -84,14 +79,8 @@
     border-left: 1px solid #F0B500;
 }
 
-
-.download .ads {
-    width: 800px;
-    height: 150px;
-    border-radius: 5px;
-    display: flex;
-    border: 1px solid rgba(0, 0, 0, 0.228);
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+.download a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    opacity: 0.5;
 }
