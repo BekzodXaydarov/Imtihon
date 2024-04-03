@@ -11,7 +11,7 @@
 .App {
   max-width: 1200px;
   margin: 0 auto;
-  height: 100vh;
+  height: 200vh;
 }
 
 
@@ -134,4 +134,33 @@
 .boy {
   width: 620px;
   height: 340px;
+}
+
+.text_h3p{
+  width: 640px;
+  height: 160px;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 14px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.select{
+  width: 606px;
+  height: 20px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.ctr{
+  width: 464px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
 }

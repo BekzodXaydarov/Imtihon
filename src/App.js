@@ -12,6 +12,8 @@ import Video from './assets/videos/video1.mp4'
 import Footer from './ads/ADS'
 // import { useDispatch } from 'react-redux'
 // import { setLang } from './redux/redux'
+import icond from './assets/images/Icon.png'
+
 
 export default function App() {
   // const dispatch = useDispatch()
@@ -37,6 +39,20 @@ export default function App() {
           <VideoComponent src={Video} className="boy" />
           <Div title={'Questions & Answers'} />
         </div>
+        <div className="text_h3p">
+                <div className="select"> <h3 className="ctr">Does you store downloaded videos or keep a copy of videos?</h3>
+                    <img src={icond} alt="" />  
+                </div>
+                <hr />
+                <p className="when">When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos.</p>
+            </div>
+            <div className="text_h3p">
+                <div className="select"> <h3 className="ctr">Does you store downloaded videos or keep a copy of videos?</h3>
+                    <img src={icond} alt="" />
+                </div>
+                <hr />
+                <p className="when">When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos.</p>
+            </div>
       </section>
       <Footer />
     </div>)
