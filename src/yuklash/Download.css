@@ -1,6 +1,38 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .left {
+    padding-left: 50px;
+}
+
+
+.header .left:first-child {
+    cursor: pointer;
+}
+
+
+.header .right {
+    padding-right: 50px;
+}
+
+.header .right select {
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    outline: none;
+    color: #777777;
+}
+
+
 .download {
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     background-color: #f9f9f9;
     text-align: center;
     padding-top: 50px;
@@ -62,41 +94,4 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-}
-
-.header {
-    width: 100%;
-    height: 60px;
-    background-color: #f9f9f9;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header .left {
-    padding-left: 50px;
-}
-
-
-.header .left:first-child {
-    cursor: pointer;
-}
-
-
-.header .right {
-    padding-right: 50px;
-}
-
-.header .right button {
-    border: none;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    font-size: 18px;
-}
-
-.header .right button:last-child {
-    cursor: pointer;
 }

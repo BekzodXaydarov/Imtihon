@@ -12,10 +12,10 @@ function Download() {
                     <FaBars />
                 </div>
                 <div className="right">
-                    <button>
-                        English
-                        <IoMdArrowRoundDown />
-                    </button>
+                    <select name="name" id="id">
+                        <option value="uz">uz</option>
+                        <option value="en">en</option>
+                    </select>
                 </div>
             </div>
             <div className='download'>
