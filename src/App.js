@@ -1,31 +1,29 @@
 import React from 'react'
+import Card from './components/card/Card'
+import Img from './assets/images/image 3.png'
+import Img2 from './assets/images/image 2.png'
 import './App.css'
+import Section_card from './components/section_card/section'
+import Download from './yuklash/Download'
 
 export default function App() {
   return (
-    <div className='container'>
-      <div className='container_textdiv'>
-        <p className='textdiv_p1'>
-          How to download TikTok videos online from the address bar?
-        </p>
-        <hr />
-        <p className='textdiv_p2'>Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.</p>
-        <div className='textdiv_card'>
-          <div className='card_textp'>
-            <div className='textp_radius'></div><p className='textp_p'>Open Tik Tok app on your phone/or Web on your browser.</p>
-          </div>
-          <div className='card_textp'>
-            <div className='textp_radius'></div><p className='textp_p'>Choose whatever video you want to download.</p>
-          </div>
-          <div className='card_textp'>
-            <div className='textp_radius'></div><p className='textp_p'>Click to the Share button at the right bottom.</p>
-          </div>
-          <div className='card_textp'>
-            <div className='textp_radius'></div><p className='textp_p'>Click the Copy Link button.</p>
-          </div>
+    <div className='App'>
+      <Download />
+      <section>
+        <div className='section'>
+          <h3 className='title'>How to start Tik Tok video download with our service?</h3>
+          <p className='description'>To save TikTok video using SaveFrom.net, you need to follow three short steps. Have a look at them:</p>
         </div>
-      </div>
-
+        <div className="card_wrap">
+          <Card img={Img} title={"1. Copy the URL"} descrition={"Open the Tik Tok page with a video that you want to save, copy its URL and go back to SaveFrom.net."} />
+          <Card img={Img2} title={"2. Paste the URL onto the input field"} descrition={"Paste the URL of the into the input field of the top of the page and click on the right side the button to run the downloading process."} />
+          <Card img={Img} title={"3. Click the download button"} descrition={"To notice that by default the best quality will be selected but if you would like a specific quality or format, there are several options you can choose from."} />
+        </div>
+        <hr />
+        <Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} Change={true} />
+        <Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} Change={false} />
+      </section>
     </div>
   )
 }

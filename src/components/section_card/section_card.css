@@ -1,27 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .container {
-    width: 1282px;
-    height: 100vh;
-    /* border: 1px solid red; */
-  }
-  
-  .container_textdiv {
+.container_textdiv {
     width: 960px;
     height: 270px;
     border-radius: 8px;
-    /* border: 1px solid green; */
     padding: 17px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  
-  .textdiv_p1 {
+    box-shadow: 0 0 1px black;
+    margin-top: 15px;
+}
+
+.textdiv_p1 {
     width: 467px;
     height: 20px;
     /* border: 1px solid black; */
@@ -29,9 +18,9 @@
     font-weight: 400;
     line-height: 20px;
     color: #333333;
-  }
-  
-  .textdiv_p2 {
+}
+
+.textdiv_p2 {
     width: 926px;
     height: 40px;
     /* border: 1px solid blueviolet; */
@@ -39,35 +28,35 @@
     font-weight: 400;
     line-height: 20px;
     color: #333333;
-  }
-  
-  .textdiv_card {
+}
+
+.textdiv_card {
     width: 454px;
     height: 116px;
     /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .card_textp {
+}
+
+.card_textp {
     width: 454px;
     height: 20px;
     /* border: 1px solid green; */
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  
-  .textp_radius {
+}
+
+.textp_radius {
     width: 8px;
     height: 8px;
     border-radius: 50%;
     background:
-      #E8AF21;
-  }
-  
-  .textp_p {
+        #E8AF21;
+}
+
+.textp_p {
     font-size: 16px;
     font-weight: 400;
-  }
+}
