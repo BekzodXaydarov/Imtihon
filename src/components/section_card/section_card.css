@@ -67,3 +67,8 @@
     font-weight: 400;
 }
 
+.container_textdiv_head {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}

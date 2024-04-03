@@ -1,15 +1,20 @@
 import React from 'react'
 import Img from '../../assets/images/Ellipse 9.png'
 import './section_card.css'
+import icond from '../../assets/images/Icon.png'
+
 
 export default function Section_card({ title, description, li1, li2, li3, li4, Change }) {
     return (
         <>
             {
                 Change ? <div className='container_textdiv'>
+                    <div className='container_textdiv_head'>
                     < p className='textdiv_p1' >
                         {title}
                     </p >
+                    <img src={icond} alt="" /> 
+                        </div> 
                     <hr />
                     <p className='textdiv_p2'>{description}</p>
                     <div className='textdiv_card'>
@@ -27,9 +32,12 @@ export default function Section_card({ title, description, li1, li2, li3, li4, C
                         </div>
                     </div>
                 </div > : <div className='container_textdiv'>
-                    <p className='textdiv_p1'>
-                        How to download TikTok videos online from the address bar?
-                    </p>
+                     <div className='container_textdiv_head'>
+                    < p className='textdiv_p1' >
+                        {title}
+                    </p >
+                    <img src={icond} alt="" /> 
+                    </div>
                     <hr />
                     <p className='textdiv_p2'>Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.</p>
                     <div className='textdiv_card'>
