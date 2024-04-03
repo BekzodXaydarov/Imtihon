@@ -1,0 +1,74 @@
+[
+    {
+        "en": {
+            "Header": {
+                "h1": "DuckTik",
+                "p": "A ducky that download TikTok video without watermark.",
+                "input_search": "Paste TikTok video link here",
+                "button_search": "Download",
+                "a_link": "How to download?"
+            },
+            "Section": {
+                "h2": "How to start Tik Tok video download with our service?",
+                "p": "To save TikTok video using SaveFrom.net, you need to follow three short steps. Have a look at them:",
+                "card": {
+                    "card_first": {
+                        "card_title": "1. Copy the URL",
+                        "card_description": "Open the Tik Tok page with a video that you want to save, copy its URL and go back to SaveFrom.net."
+                    },
+                    "card_second": {
+                        "card_title": "2. Paste the URL onto the input field",
+                        "card_description": "Paste the URL of the into the input field of the top of the page and click on the right side the button to run the downloading process."
+                    },
+                    "card_third": {
+                        "card_title": "3. Click the download button",
+                        "card_description": "To notice that by default the best quality will be selected but if you would like a specific quality or format, there are several options you can choose from."
+                    }
+                },
+                "card_text_first": {
+                    "card_text_title": "How to download TikTok videos online from the address bar?",
+                    "card_text_description": "Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.",
+                    "card_text_li": "Open Tik Tok app on your phone/or Web on your browser.",
+                    "card_text_li2": "Choose whatever video you want to download.",
+                    "card_text_li3": "Click to the Share button at the right bottom.",
+                    "card_text_li4": "Click the Copy Link button."
+                },
+                "card_text_second": {
+                    "card_text_title": "How to download TikTok videos online from the address bar?",
+                    "card_text_description": "Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.",
+                    "card_text_li": "Open Tik Tok app on your phone/or Web on your browser.",
+                    "card_text_li2": "Choose whatever video you want to download.",
+                    "card_text_li3": "Click to the Share button at the right bottom.",
+                    "card_text_li4": "Click the Copy Link button."
+                }
+            }
+        },
+        "uz": {
+            "Header": {
+                "h1": "DuckTik",
+                "p": "Votermarkasiz TikTok videolarni yuklab olishga yordam beruvchi DuckTik ducky.",
+                "input_search": "TikTok video havolasini bu erga joylang",
+                "button_search": "Yuklab olish",
+                "a_link": "Qanday yuklab olish?"
+            },
+            "Section": {
+                "h2": "Bizning xizmatimiz orqali Tik Tok video yuklashni qanday boshlash mumkin?",
+                "p": "SaveFrom.net ni ishlatib TikTok video ni saqlash uchun, siz uchun uchta qisqa qadamni amalga oshirishingiz kerak. Ularning qisqasiga nazar turing:",
+                "card": {
+                    "card_first": {
+                        "card_title": "1. URL ni nusxa oling",
+                        "card_description": "Saqlash kerak bo'lgan video bilan Tik Tok sahifasini oching, uning URL ni nusxa oling va SaveFrom.net ga qayting."
+                    },
+                    "card_second": {
+                        "card_title": "2. URL ni kiritish maydoniga joylashtiring",
+                        "card_description": "Sahifaning tepasidagi kiritish maydoniga URL ni joylashtiring va yuklash jarayonini boshlash uchun tugmani bosing."
+                    },
+                    "card_third": {
+                        "card_title": "3. Yuklash tugmasini bosing",
+                        "card_description": "Diqqatga saqlang, sukutida eng yaxshi sifat avtomatik ravishda tanlanadi, lekin agar maqbul sifat yoki formatni xohlasangiz, tanlash mumkin bo'lgan bir nechta variantlar mavjud."
+                    }
+                }
+            }
+        }
+    }
+]
