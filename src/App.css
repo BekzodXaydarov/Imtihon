@@ -53,6 +53,7 @@
   font-weight: 400;
   line-height: 50.12px;
 }
+
 .download p {
   color: #777777;
   margin-top: 15px;
@@ -68,7 +69,9 @@
   align-items: center;
   margin-top: 20px;
   border-radius: 5px;
-  border: 1px solid #F0B500;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  border-color: #F0B500;
   overflow: hidden;
 }
 
@@ -80,6 +83,8 @@
   border: none;
   font-size: 18px;
   padding-left: 15px;
+
+
 }
 
 .download form button {
@@ -128,10 +133,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .App .section .description {
-  margin-top: 5px;
+  margin-top: 10px;
   color: #555555;
   text-align: center;
 }
@@ -228,10 +234,11 @@
   justify-content: center;
   background: #F2F2F2;
 }
+
 .play {
   width: 100px;
   position: absolute;
-  right: 670px;
+  right: 850px;
   margin-top: 130px;
 }
 
@@ -240,39 +247,10 @@
   height: 340px;
 }
 
-.text_h3p {
-  width: 640px;
-  height: 160px;
-  /* border: 1px solid green; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 14px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
 
-.select {
-  width: 606px;
-  height: 20px;
-  /* border: 1px solid red; */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
-.ctr {
-  width: 464px;
-  height: 20px;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 20px;
-}
 .Footer {
   width: 100%;
-  height: 85vh;
+  height: 50vh;
 }
 
 .Footer .footerChild {
@@ -342,42 +320,54 @@
 .image {
   margin-left: 45%;
 }
+
 .section_card_wrap {
   margin-left: 140px;
 }
+
 @media screen and (max-width:400px) {
+
   /* .App div {
     border: 1px solid black;
   } */
-  .download form  {
+  .download form {
     width: 100%;
     margin-left: 0;
   }
+
   .section .title {
     width: 100% !important;
     text-align: center;
   }
+
   .App .card_wrap {
     margin-left: 0;
     overflow-x: auto;
   }
+
   .card_wrap .card {
     margin-left: 40px;
   }
+
   .section_card_wrap {
     width: 100%;
     margin-left: 0;
   }
+
   .container_textdiv {
     width: 100% !important;
-    height: 370px !important;
+    height: auto !important;
   }
+
   .textdiv_card {
     width: 100% !important;
   }
-  .container_textdiv .textdiv_p1,.textdiv_p2 {
+
+  .container_textdiv .textdiv_p1,
+  .textdiv_p2 {
     width: 96% !important;
   }
+
   .container_textdiv .textdiv_p2 {
     height: 30%;
   }
@@ -386,35 +376,45 @@
     width: 100% !important;
     margin-top: 15px;
   }
+
   .card_textp .textp_p {
     margin-top: 15px;
   }
+
   .vedio_div {
     display: block;
     width: 100% !important;
   }
+
   .ins {
     width: 100%;
   }
+
   .boy {
     width: 100%;
   }
+
   .play {
     right: 140px;
   }
+
   .text_h3p {
     width: 100%;
     height: 237px;
   }
-  .text_h3p .select  {
-   width: 100%;
+
+  .text_h3p .select {
+    width: 100%;
   }
+
   .Footer {
     width: 100%;
   }
+
   .Footer .text {
-     margin-left: 60px;
+    margin-left: 60px;
   }
+
   .links {
     display: flex;
     align-items: center;
@@ -423,6 +423,7 @@
     height: 300px !important;
     gap: 30px;
   }
+
   .Footer .image {
     margin-left: 130px;
   }

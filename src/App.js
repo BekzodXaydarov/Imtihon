@@ -16,6 +16,7 @@ import image2 from "./assets/images/Group22.png"
 import image3 from "./assets/images/Vector.png"
 import image4 from "./assets/images/image5.png"
 import * as i from './assets/svgs/index'
+import Section_card2 from './components/section_card2/section_card2'
 
 export default function App() {
   return (
@@ -58,28 +59,16 @@ export default function App() {
         </div>
         <hr />
 <div className='section_card_wrap'>
-<Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} Change={true} />
-<Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} Change={false} />
+<Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'} />
+<Section_card title={'How to download TikTok videos online from the address bar?'} description={'Our TikTok Downloader works on any device (including, but not limited to Android, iOS, Windows, Linux, and MacOS). You do not need to install any software on your mobile phone or PC, all that you need is only a video link.'} li1={'Open Tik Tok app on your phone/or Web on your browser.'} li2={'Choose whatever video you want to download.'} li3={'Click to the Share button at the right bottom.'} li4={'Click the Copy Link button.'}  />
 </div>
         <div className="vedio_div">
           <Div title={'Video instruction'} />
           <VideoComponent src={Video} className="boy" />
           <Div title={'Questions & Answers'} />
         </div>
-        <div className="text_h3p">
-                <div className="select"> <h3 className="ctr">Does you store downloaded videos or keep a copy of videos?</h3>
-                    <img src={icond} alt="" />  
-                </div>
-                <hr />
-                <p className="when">When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos.</p>
-            </div>
-            <div className="text_h3p">
-                <div className="select"> <h3 className="ctr">Does you store downloaded videos or keep a copy of videos?</h3>
-                    <img src={icond} alt="" />
-                </div>
-                <hr />
-                <p className="when">When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos.</p>
-            </div>
+       <Section_card2 title={'Does you store downloaded videos or keep a copy of videos?'} description={`When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos.`} />
+       <Section_card2 title={'How do I save tiktok video /download my favorite Tik Tok mp4 videos to my iPhone (IOS)?'} description={`Because of Apple security policy, you can't normally download any videos Mp4 tiktok, music (Mp3), or movies to your iPhone just like you can do it with Android phones. But there are some methods to deal with it, please follow this introduction how to download TikTok video with your iPhone.`} />
       </section>
       <div className='Footer'>
       <Ads prop={{ width: "70%", height: "30%" }} />
