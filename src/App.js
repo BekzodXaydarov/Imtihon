@@ -5,14 +5,17 @@ import Img2 from './assets/images/image 2.png'
 import './App.css'
 import Section_card from './components/section_card/section'
 import Download from './yuklash/Download'
-import boy from './assets/images/Rectangle 8.png'
-import play from './assets/images/play-button-svgrepo-com 1.png'
+// import boy from './assets/images/Rectangle 8.png'
 import Div from './components/Div'
 import VideoComponent from './components/video'
 import Video from './assets/videos/video1.mp4'
 import Footer from './ads/ADS'
+// import { useDispatch } from 'react-redux'
+// import { setLang } from './redux/redux'
 
 export default function App() {
+  // const dispatch = useDispatch()
+  // dispatch(setLang(1))
   return (
     <div className='App'>
       <Download />
@@ -32,7 +35,6 @@ export default function App() {
         <div className="vedio_div">
           <Div title={'Video instruction'} />
           <VideoComponent src={Video} className="boy" />
-          <img className='play' src={play} alt="" />
           <Div title={'Questions & Answers'} />
         </div>
       </section>
