@@ -1,7 +1,7 @@
 import React from 'react'
-import './App.css'
+import './section.css'
 
-export default function App() {
+export default function section() {
   return (
     <div className='container'>
       <div className='container_textdiv'>
