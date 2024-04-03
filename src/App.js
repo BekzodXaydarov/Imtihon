@@ -3,7 +3,6 @@ import './App.css'
 
 export default function App() {
   return (
-<<<<<<< HEAD
     <div className='container'>
       <div className='container_textdiv'>
         <p className='textdiv_p1'>
@@ -27,10 +26,6 @@ export default function App() {
         </div>
       </div>
 
-=======
-    <div>
-      
->>>>>>> 591f6c724f24f3468273ae7fb6cbc712a34e81a4
     </div>
   )
 }
