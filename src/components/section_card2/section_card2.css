@@ -42,3 +42,9 @@ hr {
 .body.open {
     height: auto;
 }
+
+@media screen and (max-width:400px) {
+  .text_h3p {
+    width: 100%;
+  }   
+}
