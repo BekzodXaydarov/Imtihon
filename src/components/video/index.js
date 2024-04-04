@@ -1,7 +1,5 @@
 import { useRef, useState } from "react";
 import play from '../../assets/images/play-button-svgrepo-com 1.png'
-import pause from '../../assets/images/190521.png'
-import './video.css'
 
 
 const VideoComponent = ({ src, ...props }) => {

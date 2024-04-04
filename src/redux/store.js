@@ -1,11 +1,8 @@
-// import { configureStore } from "@reduxjs/toolkit";
-// import User from "./redux";
+import { configureStore } from '@reduxjs/toolkit'
+import Redux from './redux'
 
-// const store = configureStore({
-//     reducer: {
-//         User, //  user: user
-//     },
-//     devTools: process.env.NODE_ENV !== "production",
-// });
-
-// export default store;
+export default configureStore({
+  reducer: {
+    Redux: Redux
+  }
+})
