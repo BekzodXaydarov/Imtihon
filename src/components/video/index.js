@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import play from '../../assets/images/play-button-svgrepo-com 1.png'
+import './video.css'
 
 
 const VideoComponent = ({ src, ...props }) => {
@@ -15,7 +16,7 @@ const VideoComponent = ({ src, ...props }) => {
     }
   };
   return (
-    <div >
+    <div>
       <video ref={refVideo} src={src} {...props} onClick={handlePlay} />
       <img className='play' onClick={handlePlay} src={player ? "" : play} alt="" />
     </div>

@@ -1,0 +1,13 @@
+.play {
+    width: 100px;
+    position: absolute;
+    margin-top: 130px;
+    right: 700px;
+    cursor: pointer;
+}
+
+.boy {
+    width: 620px;
+    height: 340px;
+    cursor: pointer;
+}

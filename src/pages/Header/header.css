@@ -1,0 +1,121 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .left {
+  padding-left: 50px;
+}
+
+
+.header .left:first-child {
+  cursor: pointer;
+}
+
+
+.header .right {
+  padding-right: 50px;
+}
+
+.header .right select {
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  outline: none;
+  color: #777777;
+}
+
+
+.download {
+  width: 100%;
+  height: 60vh;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.download h1 {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 50.12px;
+}
+
+.download p {
+  color: #777777;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+
+.download form {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-width: 0px, 0px, 0px, 0px;
+  border-style: solid;
+  border-color: #F0B500;
+  overflow: hidden;
+}
+
+
+.download form input {
+  width: 83%;
+  height: 40px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding-left: 15px;
+
+
+}
+
+.download form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  width: 150px;
+  border: none;
+  background-color: #fcf0cd;
+  cursor: pointer;
+  border-left: 1px solid #F0B500;
+}
+
+.download a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  opacity: 0.5;
+  margin-top: 15px;
+  color: #777777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:400px) {
+
+
+  .download form {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .section .title {
+    width: 100% !important;
+    text-align: center;
+  }
+
+
+
+  .download .ads {
+    width: 400px;
+  }
+}
