@@ -5,35 +5,122 @@
     "children": {
       "Header": {
         "h1": "DuckTik",
-        "p": "Votermarkasiz TikTok videolarni yuklab olishga yordam beruvchi",
-        "input_search": "TikTok video havolasini bu erga joylang",
-        "button_search": "Yuklab oling",
+        "p": "Watermark yoki tanda olmagan TikTok video larini yuklab olish uchun o'rtacha urug'li.",
+        "input_search": "TikTok video havolasini bu erda qo'ying",
+        "button_search": "Yuklab olish",
         "a_link": "Qanday yuklab olish?"
       },
       "Section": {
-        "h3": "Tik Tok video yuklashni bizning xizmatimiz bilan qanday boshlash mumkin?",
-        "p": "SaveFrom.net yordamida TikTok videosini saqlash uchun siz uchta qisqa qadamni bajarishingiz kerak. Ularga qarang:",
+        "h3": "Xizmatimiz bilan Tik Tok video yuklash qanday boshlanadi?",
+        "p": "SaveFrom.net ishlatib TikTok video sini saqlash uchun, siz uchun uch ta qisqa qadamni bajarishingiz kerak. Ularga qarang:",
         "cards": {
           "card_first": {
             "card_title": "1. URL ni nusxa oling",
-            "card_description": "Saqlash kerak bo'lgan video bilan Tik Tok sahifasini oching, uning URL ni nusxa oling va SaveFrom.net ga qayting."
+            "card_description": "Siz saqlamoqchi bo'lgan videoga ega Tik Tok sahifasini oching, uning URL sini nusxa oling va SaveFrom.net ga qayting."
           },
           "card_second": {
-            "card_title": "2. URL ni kiritish maydoniga joylashtiring",
-            "card_description": "Sahifaning tepasidagi kiritish maydoniga URL ni joylashtiring va yuklash jarayonini boshlash uchun tugmani bosing."
+            "card_title": "2. URL ni kiritish qutisiga joylashtiring",
+            "card_description": "Sahifaning yuqorisida joylashgan kiritish qutisiga videoning URL sini joylashtiring va yuklash jarayonini boshlash uchun o'ng tomondagi tugma ustiga bosing."
           },
           "card_third": {
-            "card_title": "3. Yuklash tugmasini bosing",
-            "card_description": "Diqqatga saqlang, sukutida eng yaxshi sifat avtomatik ravishda tanlanadi, lekin agar maqbul sifat yoki formatni xohlasangiz, tanlash mumkin bo'lgan bir nechta variantlar mavjud."
+            "card_title": "3. Yuklab olish tugmasini bosing",
+            "card_description": "Diqqat qiling, sukutiy ravishda eng yaxshi sifat avtomatik ravishda tanlanadi, lekin agar siz ma'lum bir sifat yoki formatni istasangiz, tanlash uchun bir nechta variantlar mavjud."
           }
         },
         "card_text_first": {
-          "card_text_title": "Qanday qilib TikTok videolarini manzil satridan onlayn yuklab olish mumkin?",
-          "card_text_description":"Bizning TikTok Downloaderimiz har qanday qurilmada ishlaydi (shu jumladan, Android, iOS, Windows, Linux va MacOS). Mobil telefoningizga yoki shaxsiy kompyuteringizga hech qanday dasturiy ta'minotni o'rnatishingiz shart emas, sizga faqat video havola kerak.",
-          "card_text_li": "Telefoningizda/yoki brauzeringizda Internetda Tik Tok ilovasini oching.",
-          "card_text_li2": "Yuklab olmoqchi bo'lgan videoni tanlang.",
-          "card_text_li3": "Pastki o'ngdagi Ulashish tugmasini bosing.",
-          "card_text_li4": "Havolani nusxalash tugmasini bosing."
+          "card_text_title": "TikTok videolarni manzil panelidan qanday yuklab olish mumkin?",
+          "card_text_description": "Bizning TikTok Yuklab Olishchimiz (inkluding, ammo cheklangan emas, Android, iOS, Windows, Linux va MacOS) har qanday qurilmada ishlaydi. Siz mobil telefon yoki kompyuterizga dastur o'rnatishingiz kerak emas, kerak bo'lgan faqat videoning havolasi.",
+          "card_text_li": "Telefoningizda Tik Tok ilovasini oching / yoki brauzeringizda Vebni oching.",
+          "card_text_li1": "Yuklab olishni istagan video ni tanlang.",
+          "card_text_li3": "Tagida o'ng pastda joylashgan Baham ko'rsatish tugmasini bosing.",
+          "card_text_li4": "Havolani nusxa olish tugmasini bosing."
+        },
+        "card_text2": {
+          "card_text_title": "Yuklab olingan videolarni saqlaydimi yoki nusxalab qo'ydimi?",
+          "card_text_description": "Fayllarni yuklab o'rganishingizda, ular odatda sizning sukutiy ravishingiz sifatida sozlangan papkaga saqlanadi. Odatda brauzeringiz bu papkani siz uchun sozlaydi. Brauzer sozlamalarida, TikTok videolaringizni yuklab olish uchun manzil papkasini qo'llab-quvvatlash uchun o'zingiz manzil papkasini o'zgartirishingiz mumkin."
+        },
+        "card_text3": {
+          "card_text_title": "Men qanday qilib tiktok video sini / sevimli Tik Tok mp4 videolarimni iPhone (IOS) ga yuklay olaman?",
+          "card_text_description": "Apple xavfsizlik siyosati tufayli, siz Android telefonlarda qilganidek, iPhone gacha hech qanday videolar Mp4 tiktok, musiqa (Mp3) yoki filmlarni odatiy ravishda yuklab olishingiz mumkin emas. Lekin, bu bilan muammo hal qilishning ba'zi usullari mavjud, iltimos, iPhone iga TikTok video sini qanday yuklab olish haqida muqaddaslashgan maqolani kuzating."
+        },
+        "card_text4": {
+          "card_text_title": "Yuklab olingan videolarni saqlaydimi yoki nusxalab qo'ydimi?",
+          "card_text_description": "Fayllarni yuklab o'rganishingizda, ular odatda sizning sukutiy ravishingiz sifatida sozlangan papkaga saqlanadi. Odatda brauzeringiz bu papkani siz uchun sozlaydi. Brauzer sozlamalarida, TikTok videolaringizni yuklab olish uchun manzil papkasini qo'llab-quvvatlash uchun o'zingiz manzil papkasini o'zgartirishingiz mumkin."
+        },
+        "blocks": {
+          "block1": "Video ko'rsatma",
+          "block2": "Savollar & Javoblar",
+          "block3": "Blok sarlavhasi",
+          "block4": "Iltimos, kuting..",
+          "block5": "Maxfiylik siyosati"
+        }
+      },
+      "TikTok": {
+        "h1": "Qisqa matnli video ta'rif",
+        "a_link1": "Video ni yuklab olish (server #1)",
+        "a_link2": "Video ni yuklab olish (server #2)",
+        "a_link3": "Boshqa video ni yuklab olish",
+        "bold_titles": {
+          "bold_title1": "Sizning ma'lumotlaringiz",
+          "bold_title2": "Ma'lumotlaringizni qanday ishlatamiz"
+        },
+        "texts": {
+          "text1": "Sizdan so'ralgan shaxsiy ma'lumotlaringiz va ularni beringanizning sabablarini sizga beringaniz va so'ralgan nuqtada sizga boshlangich shaxsiy ma'lumotlarni beringiz",
+          "text2": "Agar siz biz bilan to'g'ri aloqaga chiqsangiz, biz siz haqingizda qo'shimcha ma'lumotlar olishimiz mumkin, masalan, ismingiz, elektron pochtangiz, telefon raqamingiz, xabarni va/atroflarini yuborganingizga oid ma'lumotlarni va boshqa taqdim etishingiz mumkin bo'lgan ma'lumotlarni.",
+          "text3": "Hisob yaratishda, biz sizning nom, kompaniya nomi, manzil, elektron pochta manzili va telefon raqami kabi aloqador ma'lumotlaringizni so'rab olishimiz mumkin.",
+          "text4": "Biz to'plagan ma'lumotlarni turli yo'nalishlarda ishlatamiz, shu jumladan:"
+        },
+        "link": {
+          "title": "Bu bizning aloqa manzilimiz:",
+          "a": " email@manzil.com"
+        },
+        "ul": {
+          "li1": "Biz to'plagan ma'lumotlarni turli yo'nalishlarda ishlatamiz, shu jumladan:",
+          "li2": "Bizning veb-saytimizni taqdim etish, boshqarish va saqlash",
+          "li3": "Bizning veb-saytimizni yaxshilash, shaxsiylashtirish va kengaytirish",
+          "li4": "Sizning qanday qilib bizning veb-saytimizni qanday aniqlab, tahlil qilish",
+          "li5": "Yangi mahsulotlar, xizmatlar, xususiyatlar va funksiyalar rivojlanishi",
+          "li6": "Biz siz bilan to'g'ri, chunki xizmatlarimizdan foydalanganingiz bo'yicha, mijoz xizmatlari, veb-saytga oid yangilanishlar va boshqa ma'lumotlar, va/ yoki marketing va reklama maqsadlari uchun, shuningdek bizning sheriklarimiz orqali, aloqa o'rnatish",
+          "li7": "Sizga elektron pochta yuborish",
+          "li8": "Fraud topish va oldini olish"
+        },
+        "Steps": {
+          "Step1": {
+            "Step1": {
+              "step_title": "1-qadam: Video havolasini nusxa oling",
+              "step_li1": "TikTok ilovasini oching. 'Baham ko'rsatish' tugmasini bosing.",
+              "step_li2": "Video havolasini nusxa olish uchun 'Havolani nusxa olish' tugmasini bosing."
+            },
+            "Step2": {
+              "step_title": "2-qadam: Video ni qidiring",
+              "step_li1": "IPhone / iPadda Safari brauzeri bilan SaveTT.cc saytiga o'ting.",
+              "step_li2": "Video havolasini qidiruv qutisiga qo'ying: kiritish qutisida chiroq belgisini bosing va pastki menyudagi 'Qo'ndirish' tugmasini bosing.",
+              "step_li3": "'Qidirish' tugmasini bosing."
+            }
+          },
+          "Step2": {
+            "Step1": {
+              "step_title": "1-qadam: Video havolasini nusxa oling",
+              "step_li1": "TikTok ilovasini oching. 'Baham ko'rsatish' tugmasini bosing.",
+              "step_li2": "Video havolasini nusxa olish uchun 'Havolani nusxa olish' tugmasini bosing."
+            },
+            "Step2": {
+              "step_title": "2-qadam: Video ni qidiring",
+              "step_li1": "IPhone / iPadda Safari brauzeri bilan SaveTT.cc saytiga o'ting.",
+              "step_li2": "Video havolasini qidiruv qutisiga qo'ying: kiritish qutisida chiroq belgisini bosing va pastki menyudagi 'Qo'ndirish' tugmasini bosing.",
+              "step_li3": "'Qidirish' tugmasini bosing."
+            }
+          }
+        }
+      },
+      "Footer": {
+        "p": "Bu sayt “Bytedance”ga tegishli emas va “Bytedance” bilan hech qanday aloqasi yoq, shuningdek, bu “TikTok” ilovasi yoki “Bytedance” kompaniyasi reklamasi emas.",
+        "ul": {
+          "li1": "Onlayn holat",
+          "li2": "FAQ",
+          "li3": "Boglanish",
+          "li4": "Xizmat shartlari",
+          "li5": "Maxfiylik siyosati"
         }
       }
     }
@@ -86,15 +173,82 @@
           "card_text_title": "Does you store downloaded videos or keep a copy of videos?",
           "card_text_description": "When you're downloading files, they are usually saved into whatever folder you have set as your default. Your browser normally sets this folder for you. In browser settings, you can change and choose manually the destination folder for your downloaded TikTok videos."
         },
-        "blocks":{
-          "block1":"Video instruction",
-          "block2":"Questions & Answers",
-          "block3":"Block title",
-          "block4":"Please, wait..",
-          "block5":"Privacy Policy"
+        "blocks": {
+          "block1": "Video instruction",
+          "block2": "Questions & Answers",
+          "block3": "Block title",
+          "block4": "Please, wait..",
+          "block5": "Privacy Policy"
+        }
+      },
+      "TikTok": {
+        "h1": "Short text video description",
+        "a_link1": "Download video (server #1)",
+        "a_link2": "Download video (server #2)",
+        "a_link3": "Download other video",
+        "bold_titles": {
+          "bold_title1": "Information we collect",
+          "bold_title2": "How we use your information"
+        },
+        "texts": {
+          "text1": "The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.",
+          "text2": "If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.",
+          "text3": "When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.",
+          "text4": "We use the information we collect in various ways, including to:"
+        },
+        "link": {
+          "title": "This is our contact address:",
+          "a": " email@address.com"
+        },
+        "ul": {
+          "li1": "We use the information we collect in various ways, including to:",
+          "li2": "Provide, operate, and maintain our webste",
+          "li3": "Improve, personalize, and expand our webste",
+          "li4": "Understand and analyze how you use our webste",
+          "li5": "Develop new products, services, features, and functionality",
+          "li6": "Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the webste, and for marketing and promotional purposes",
+          "li7": "Send you emails",
+          "li8": "Find and prevent fraud"
+        },
+        "Steps": {
+          "Step1": {
+            "Step1": {
+              "step_title": "Step 1: Copy video link",
+              "step_li1": "Open TikTok app. Tap the 'Share' button.",
+              "step_li2": "Tap the 'Copy Link' button to copy the video link."
+            },
+            "Step2": {
+              "step_title": "Step 2: Search the video",
+              "step_li1": "Go to SaveTT.cc with browser Safari on your iPhone/iPad.",
+              "step_li2": "Paste the video link into the search box: right-click on the input box and tap the 'Paste' button on the drop-down menu.",
+              "step_li3": "Tap the 'Search' button."
+            }
+          },
+          "Step2": {
+            "Step1": {
+              "step_title": "Step 1: Copy video link",
+              "step_li1": "Open TikTok app. Tap the 'Share' button.",
+              "step_li2": "Tap the 'Copy Link' button to copy the video link."
+            },
+            "Step2": {
+              "step_title": "Step 2: Search the video",
+              "step_li1": "Go to SaveTT.cc with browser Safari on your iPhone/iPad.",
+              "step_li2": "Paste the video link into the search box: right-click on the input box and tap the 'Paste' button on the drop-down menu.",
+              "step_li3": "Tap the 'Search' button."
+            }
+          }
+        }
+      },
+      "Footer": {
+        "p": "This site is not owned by “Bytedance” and is not affiliated in any way with “Bytedance”, nor is it an advertisement for the “TikTok” app or “Bytedance” company.",
+        "ul": {
+          "li1": "Online Status",
+          "li2": "FAQ",
+          "li3": "Contact",
+          "li4": "Terms of Service",
+          "li5": "Privacy Policy"
         }
       }
-
     }
   }
 ]

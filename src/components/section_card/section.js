@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import Img from '../../assets/images/Ellipse 9.png'
 import Icon_Button from '../icon_button'
-import './section_card.css'
 import * as i from '../../assets/svgs/index'
+import './section_card.css'
 
 export default function Section_card({ title, description, li1, li2, li3, li4 }) {
     const [open,setOpen] = useState(false)

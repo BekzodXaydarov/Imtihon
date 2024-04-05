@@ -6,33 +6,31 @@ import image4 from '../../assets/images/image5.png'
 import * as i from '../../assets/svgs/index'
 import './footer.css'
 
-export default function Footer() {
+export default function Footer({lang}) {
     return (
         <div>
             <div className="Footer">
                 <Ads />
 
                 <div className="text">
-                    This site is not owned by “Bytedance” and is not affiliated in any way
-                    with “Bytedance”, nor is it an advertisement for the “TikTok” app or
-                    “Bytedance” company.
+                   {lang.p}
                 </div>
 
                 <div className="links">
                     <li>
-                        <a href="/">Online Status</a>
+                        <a href="/">{lang.ul.li1}</a>
                     </li>
                     <li>
-                        <a href="/">FAQ</a>
+                        <a href="/">{lang.ul.li2}</a>
                     </li>
                     <li>
-                        <a href="/">Contact</a>
+                        <a href="/">{lang.ul.li3}</a>
                     </li>
                     <li>
-                        <a href="/">Terms of Service</a>
+                        <a href="/">{lang.ul.li4}</a>
                     </li>
                     <li>
-                        <a href="/">Privacy Policy</a>
+                        <a href="/">{lang.ul.li5}</a>
                     </li>
                 </div>
 

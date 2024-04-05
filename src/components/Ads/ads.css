@@ -1,5 +1,5 @@
 .ads {
-    width: 100%;
+    width: 960px;
     height: 150px;
     border-radius: 5px;
     display: flex;
@@ -9,4 +9,9 @@
     margin: 0 auto;
     color: #878787;
     margin-top: 15px;
+}
+@media screen and (max-width:400px) {
+    .ads {
+        width: 100%;
+    }
 }
